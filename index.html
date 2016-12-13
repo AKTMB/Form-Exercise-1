@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<meta name="description" content="A form for this great place!">
+</head>
+<body>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="logoh">
+  	<img src="image/logo.png" class="logo">
+  	</div>
+	<div class="holder">
+    <form class='form1' action="/some-server-endpoint" method='post'>
+      <h1>Sign Up!!</h1> 
+    <fieldset name="contact-info">
+      <label for="email">Email</label>
+      <input type="email" name='email' id='email' placeholder="foo@bar.com"  />
+
+      <label for="password" required>Password</label>
+      <input type='password' pattern='[0-9/-]*' name='password' id='password' placeholder="PASSWORD" title="a password" required/>
+    </fieldset>
+       <button type='submit'>Submit</button>
+    <h4>Reset your password</h4>
+  </form>
+	</div>
+	<h5>Already have an account? <a href="">Log in</a></h5>
+</body>
+</body>
+</html>

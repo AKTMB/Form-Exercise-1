@@ -1,0 +1,105 @@
+body {
+  background-color: #4286f4;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+}
+
+.holder {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 320px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.logoh{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;  
+  width: 320px;
+  height: 45px;
+}
+
+.logo{
+  position: relative;
+  margin-left: 77px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.form1 fieldset {
+  padding-left: 0;
+  border: none;
+}
+
+.form1 label {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: -20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form1 input, .form1 select {
+  display: block;
+  width: 320px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.form1 input {
+  padding: 15px;
+  margin-left: -20px;
+}
+
+.form1 select {
+  cursor: pointer;
+}
+
+.form1 input:invalid {
+  border: 2px red solid;
+}
+
+.radio-group label, .radio-group input{
+  display: inline-block;
+}
+
+.form1 button {
+    width: 320px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fdf8f8;
+    cursor: pointer;
+    background: #2be286;
+}
+
+a {
+  color: white;
+}
