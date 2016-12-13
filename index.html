@@ -17,17 +17,17 @@
     <form class='form1' action="/some-server-endpoint" method='post'>
       <h1>Sign Up!!</h1> 
     <fieldset name="contact-info">
-      <label for="email">Email</label>
+      <label for="email" required>Email</label>
       <input type="email" name='email' id='email' placeholder="foo@bar.com"  />
 
       <label for="password" required>Password</label>
       <input type='password' pattern='[0-9/-]*' name='password' id='password' placeholder="PASSWORD" title="a password" required/>
     </fieldset>
        <button type='submit'>Submit</button>
-    <h4>Reset your password</h4>
+    <h4><a href="/forgot-password/new" class="reset">Reset your password</a></h4>
   </form>
 	</div>
-	<h5>Already have an account? <a href="">Log in</a></h5>
+	<h5>Already have an account? <a href="/login">Log in</a></h5>
 </body>
 </body>
 </html>
